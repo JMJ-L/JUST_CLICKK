@@ -1,0 +1,22 @@
+body{
+    background: #257ea4;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+.images1 img{
+				width: 150px;
+}
+
+.images1{
+				position: absolute;
+				top: 0;
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap:2em;
+				margin-left: 1em;
+				margin-right: 1em;
+}
